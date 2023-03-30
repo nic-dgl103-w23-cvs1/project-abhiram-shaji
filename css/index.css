@@ -1,36 +1,173 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }  
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-header li, header a {
-    font-weight: 500;
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  header {
-    top: 0.496px;
-    left: 0px;
-    height: 61.008px;
-  
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1.875rem 2%;
-    background-color: white;
-  }
+/* Header Styles */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 
-  .nav_links {
-    list-style: none;
-  }
-  
-  .nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
-  }
-  
-  
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1em;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Hero-1 Styles */
+.hero-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 0;
+}
+
+.hero-1-left {
+  width: 50%;
+}
+
+.hero-1-left h1 {
+  font-size: 48px;
+  margin-bottom: 1em;
+}
+
+.hero-1-left p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.hero-1-buttons {
+  display: flex;
+}
+
+.portfolio-button {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin-right: 1em;
+}
+
+.about-button {
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #333;
+}
+
+.hero-1-right {
+  width: 50%;
+}
+
+.hero-1-right img {
+  width: 100%;
+}
+
+/* Hero-2 Styles */
+.hero-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 0;
+}
+
+.hero-2-written {
+  width: 50%;
+}
+
+.hero-2-written h2 {
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+.hero-2-written p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.hero-2 img {
+  width: 50%;
+}
+
+/* Hero-3 Styles */
+.hero-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 0;
+}
+
+.hero-3-written {
+  width: 50%;
+}
+
+.hero-3-written h2 {
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+.hero-3-written p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.hero-3 img {
+  width: 50%;
+}
+
+/* Works Section Styles */
+.works {
+  padding: 4em 0;
+}
+
+.works h2 {
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+/* Reviews Section Styles */
+.reviews {
+  padding: 4em 0;
+}
+
+.reviews h2 {
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+.review-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-block-1,
+.reviews-block-2,
+.reviews-block-3 {
+  width: 30%;
+}
+
+.reviews-block-1 h3,
+.reviews-block-2 h3,
+.reviews-block-3 h

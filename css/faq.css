@@ -1,0 +1,93 @@
+/* Set the font and background for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the hero section */
+.faq-hero {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.faq-hero h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+/* Style the questions section */
+.questions {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.question-1,
+.question-2,
+.question-3,
+.question-4,
+.question-5,
+.question-6 {
+  margin-bottom: 40px;
+}
+
+.question-1 h2,
+.question-2 h2,
+.question-3 h2,
+.question-4 h2,
+.question-5 h2,
+.question-6 h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.question-1 p,
+.question-2 p,
+.question-3 p,
+.question-4 p,
+.question-5 p,
+.question-6 p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Style the contact section */
+.get-in-touch {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+

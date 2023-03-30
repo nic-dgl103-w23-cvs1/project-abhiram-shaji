@@ -1,0 +1,72 @@
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* About hero 1 styling */
+  .about-hero-1 {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about-hero-1 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .about-hero-1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .about-hero-1 img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .about-hero-1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+  }
+  
+  /* About hero 2 styling */
+  .about-hero-2 {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about-hero-2 h2 {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  
+  .about-hero-2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .about-hero-2 img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .about-hero-2 p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+  }
+  

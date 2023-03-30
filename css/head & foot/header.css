@@ -1,0 +1,27 @@
+ /* Navigation styling */
+ nav {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .nav_links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav_links li {
+    margin: 0 10px;
+  }
+  
+  .nav_links li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav_links li a:hover {
+    color: #000;
+  }
+  
