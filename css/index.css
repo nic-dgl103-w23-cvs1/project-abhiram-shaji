@@ -7,7 +7,6 @@ body {
 /* Header Styles */
 header {
   background-color: #fff;
-  border-bottom: 1px solid #ddd;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -34,10 +33,15 @@ nav a {
 
 /* Hero-1 Styles */
 .hero-1 {
+  margin: 0;
+  height: 55rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4em 0;
+  background-image: url("/images/hero/home-hero-1.jpg");
+  background-size: 100% 100%;
 }
 
 .hero-1-left {
@@ -155,6 +159,8 @@ nav a {
 .reviews h2 {
   font-size: 36px;
   margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .review-blocks {
@@ -164,10 +170,10 @@ nav a {
 
 .reviews-block-1,
 .reviews-block-2,
-.reviews-block-3 {
+.reviews-block-3,
+.reviews-block-4 {
+  padding: 1%;
+  margin: 1.5%;
   width: 30%;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
-
-.reviews-block-1 h3,
-.reviews-block-2 h3,
-.reviews-block-3 h
