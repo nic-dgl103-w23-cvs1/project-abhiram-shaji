@@ -30,16 +30,6 @@ body {
 }
 
 
-
-.grid-wrapper img {
-	height: auto;
-	width: 100%;
-	vertical-align: middle;
-	display: inline-block;
-}
-
-
-
 /* Grid */
 .grid-wrapper > div {
 	display: flex;

@@ -97,6 +97,12 @@ h2{
     width: 35rem;
   }
 
+  .banner-image:hover {
+    height: 42rem;
+    width: 38rem;
+    transition: .5s;
+  }
+
   .product {
     grid-template-columns: repeat(3, 1fr); 
     gap: 20.0032px;
@@ -106,4 +112,5 @@ h2{
     margin-left: 5rem;
     margin-right: 5rem;
   }
+
 }
