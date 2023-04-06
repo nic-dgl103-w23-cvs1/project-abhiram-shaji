@@ -11,34 +11,32 @@
     <!-- DGL 103 CVS1 - Abhiram Shaji - Project -->
   </head>
   <body>
-    <header>
-      <nav>
-        <ul class="nav_links">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="/products.html">Products</a></li>
-          <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
     <!-- hero 1 -->
-
-    <section class="hero-1">
-      <div class="hero-1-left">
-        <h1>Lars tornoe</h1>
-        <p>
-          Meet Lars Tornøe, a Norwegian design studio crafting beautiful
-          furniture and statement pieces for your home. Add that touch of
-          Scandinavian flair to your life!
-        </p>
-        <div class="hero-1-buttons">
-          <a class="portfolio-button"></a>
-          <a class="about-button"></a>
-        </div>
-      </div>
+    <section class="main">
+      <header>
+        <nav>
+          <ul class="nav_links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/products.html">Products</a></li>
+            <li><a href="/gallary.html">Gallary</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <container class="hero-1">
+          <h1>Lars tornoe</h1>
+          <p>
+            Meet Lars Tornøe, a Norwegian design studio crafting <br> beautiful
+            furniture and statement pieces for your home.<br> Add that touch of
+            Scandinavian flair to your life!
+          </p>
+          <div class="hero-1-buttons">
+            <a class="portfolio-button">Products</a>
+            <a class="about-button">About Us</a>
+          </div>
+      </container>
     </section>
 
     <!-- hero 2 -->
@@ -65,7 +63,6 @@
     <!-- hero 3 -->
 
     <section class="hero-3">
-      <img src="images/hero/dreams.jpg" alt="A table" />
       <div class="hero-3-written">
         <h2>
           Dreams don't have to just stay in your head, turn them into reality
@@ -84,10 +81,30 @@
           inspire you - let us help you turn your dreams into a reality.
         </p>
       </div>
+      <img src="images/hero/dreams.jpg" alt="A table" />
+
     </section>
     <!-- Works -->
     <section class="works">
       <h2>Works</h2>
+      <div class="container">
+        <div class="box">
+          <img src="images/products/KizuTableLampWhiteMarble2CSmall2.jpg" />
+          <span>Kizu</span>
+        </div>
+        <div class="box">
+          <img src="images/products/Hex.jpg" />
+          <span>Hex</span>
+        </div>
+        <div class="box">
+          <img src="images/products/Tind.jpg" />
+          <span>Tind</span>
+        </div>
+        <div class="box">
+          <img src="images/products/Coil.jpg" />
+          <span>Coil</span>
+        </div>
+      </div>
     </section>
 
     <!-- Reviews -->
@@ -95,52 +112,54 @@
     <section class="reviews">
       <h2>Reviews</h2>
       <div class="review-blocks">
-        <div class="reviews-block-1">
-          <h3>
-            I recently purchased a custom dining table from Lars Tornøe, and I
-            couldn't be happier with the result. The design team really took the
-            time to understand my vision, and the finished product was even
-            better than I could have imagined. The craftsmanship is impeccable
-            and the attention to detail is second to none. I highly recommend
-            Lars Tornøe for anyone looking for bespoke furniture that will truly
-            elevate their space.
-          </h3>
-        </div>
-        <div class="reviews-block-2">
-          <h3>
-            Lars Tornøe is hands down one of the best design studios out there.
-            Their products are not only visually stunning, but also incredibly
-            well-made and practical. I've purchased several pieces from them
-            over the years, and they have all held up beautifully. The team is
-            also a pleasure to work with - they're responsive, collaborative,
-            and genuinely care about their clients' satisfaction. I highly
-            recommend them for anyone looking for exceptional furniture and
-            product design.
-          </h3>
-        </div>
-        <div class="reviews-block-3">
-          <h3>
-            I stumbled upon Lars Tornøe's Instagram page and was immediately
-            drawn to their minimalist aesthetic. I reached out to them about a
-            custom lighting fixture for my living room, and was blown away by
-            their responsiveness and attention to detail. The final product was
-            absolutely stunning and really tied the room together. I'm so
-            grateful to have found Lars Tornøe and will definitely be working
-            with them again in the future.
-          </h3>
-        </div>
-        <div class="reviews-block-4">
-          <h3>
-            I recently moved into a new apartment and was looking for furniture
-            that was both functional and stylish. Lars Tornøe's pieces were
-            exactly what I was looking for. I purchased a coffee table and a set
-            of chairs, and both have exceeded my expectations in terms of
-            quality and design. They really have a talent for creating furniture
-            that's not only beautiful, but also practical for everyday use. I
-            highly recommend Lars Tornøe to anyone looking to elevate their
-            living space.
-          </h3>
-        </div>
+
+        <figure class="snip1533">
+          <figcaption>
+            <blockquote>
+              <p>I recently purchased a custom dining table from Lars Tornøe, and I
+                couldn't be happier with the result. The design team really took the
+                time to understand my vision, and the finished product was even
+                better than I could have imagined. The craftsmanship is impeccable
+                and the attention to detail is second to none. I highly recommend
+                Lars Tornøe for anyone looking for bespoke furniture that will truly
+                elevate their space.</p>
+            </blockquote>
+            <h3>Wisteria Ravenclaw</h3>
+            <h4>Google Inc.</h4>
+          </figcaption>
+        </figure>
+        <figure class="snip1533">
+          <figcaption>
+            <blockquote>
+              <p>Lars Tornøe is hands down one of the best design studios out there.
+                Their products are not only visually stunning, but also incredibly
+                well-made and practical. I've purchased several pieces from them
+                over the years, and they have all held up beautifully. The team is
+                also a pleasure to work with - they're responsive, collaborative,
+                and genuinely care about their clients' satisfaction. I highly
+                recommend them for anyone looking for exceptional furniture and
+                product design.</p>
+            </blockquote>
+            <h3>Ursula Gurnmeister</h3>
+            <h4>Facebook</h4>
+          </figcaption>
+        </figure>
+        <figure class="snip1533">
+          <figcaption>
+            <blockquote>
+              <p>I stumbled upon Lars Tornøe's Instagram page and was immediately
+                drawn to their minimalist aesthetic. I reached out to them about a
+                custom lighting fixture for my living room, and was blown away by
+                their responsiveness and attention to detail. The final product was
+                absolutely stunning and really tied the room together. I'm so
+                grateful to have found Lars Tornøe and will definitely be working
+                with them again in the future.</p>
+            </blockquote>
+            <h3>Ingredia Nutrisha</h3>
+            <h4>Twitter</h4>
+          </figcaption>
+        </figure>
+
       </div>
     </section>
 
@@ -152,7 +171,9 @@
         <a href="mailto:hello@larstornoe.com">hello@larstornoe.com</a>
         <a href="tel:+4790888761">+47 90 88 77 61</a>
         <a href="https://www.instagram.com/larstornoe/">@larstornoe</a>
-        <a href="https://goo.gl/maps/6XfL6x3zSzZ3fN3N8">Kvitsøygata 10A, 4014 Stavanger, Norway</a>
+        <a href="https://goo.gl/maps/6XfL6x3zSzZ3fN3N8"
+          >Kvitsøygata 10A, 4014 Stavanger, Norway</a
+        >
       </contact>
       <follow>
         <h2>Follow Me</h2>

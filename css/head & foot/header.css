@@ -1,27 +1,50 @@
- /* Navigation styling */
- nav {
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
+nav {
+  padding: 20px;
+}
+
+header {
+	margin-bottom: 2rem;
+  padding: 0%;
+}
+
+.nav_links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_links li {
+  margin: 0 10px;
+}
+
+.nav_links li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Insert tablet styles here */
   .nav_links {
-    list-style: none;
+    justify-content: flex-end;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
   }
-  
-  .nav_links li {
-    margin: 0 10px;
+}
+
+/* ------------------------------------------------------------- Styles for desktops ------------------------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 1024px) {
+  /* Insert desktop styles here */
+  /* Navigation styling */
+  .nav_links {
+    justify-content: flex-end;
+    margin: 0;
   }
-  
-  .nav_links li a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .nav_links li a:hover {
-    color: #000;
-  }
-  
+
+}

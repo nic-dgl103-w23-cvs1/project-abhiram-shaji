@@ -1,75 +1,186 @@
-/* Style the footer */
+
+/* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  /* Style the contact section in the footer */
-  contact {
-    margin-bottom: 20px;
-  }
-  
-  contact h2 {
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-  
-  contact a {
-    display: block;
-    margin-bottom: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  follow h2 {
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-  
-  /* Style the social media links in the footer */
-  follow ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  follow li {
-    margin: 0 10px;
-  }
-  
-  follow li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 50%;
-  }
-  
-  follow li a:hover {
-    background-color: #fff;
-    color: #333;
-  }
-  
-  /* Style the "From Tornøe" section in the footer */
-  message {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  message h2 {
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-  
-  message p {
-    font-size: 16px;
-    line-height: 1.5;
-    color
-  }
+  background-color: #333;
+  padding: 20px;
+}
+
+/* Contact Styles */
+contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+contact h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+contact a {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+contact a:hover {
+  font-weight: bold;
+}
+
+/* Follow Styles */
+follow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+follow h2 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+follow ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+follow li {
+  margin: 0 10px;
+}
+
+follow li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+follow li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+/* Message Styles */
+message {
+  margin-bottom: 20px;
+}
+
+message h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+message p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+
+
+  /* ---------------------------------------------------------------------Styles for tablets------------------------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Insert tablet styles here */
+}
+
+
+
+/* ---------------------------------------------------------- Styles for desktops ---------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+  /* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+  padding-left: 5%;
+}
+
+/* Style the contact section in the footer */
+contact {
+  margin-bottom: 20px;
+  margin-right: 20%;
+}
+
+contact h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+contact a {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+contact a:hover {
+  font-weight: bold;
+}
+
+follow h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-left: 30%;
+}
+
+/* Style the social media links in the footer */
+follow ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+follow li {
+  margin: 0 10px;
+}
+
+follow li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+follow li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the "From Tornøe" section in the footer */
+message {
+  text-align: center;
+  width: 50%;
+  margin-left: 40%;
+}
+
+message h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+message p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+}

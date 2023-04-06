@@ -1,179 +1,211 @@
-/* Global Styles */
+/* CSS for mobile screens */
+
+/* Set the width of the page to the device width */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-/* Header Styles */
-header {
-  background-color: #fff;
-  position: fixed;
   width: 100%;
-  z-index: 1;
+  padding: 1%;
+  margin: 0;
 }
 
-nav ul {
-  margin: 0;
+
+.main {
+  background-image: url("/images/hero/home-hero-1-phone.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50rem;
+  width: 100%;
   padding: 0;
-  list-style: none;
-  display: flex;
-}
-
-nav li {
-  margin-right: 1em;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-/* Hero-1 Styles */
-.hero-1 {
   margin: 0;
-  height: 55rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4em 0;
-  background-image: url("/images/hero/home-hero-1.jpg");
-  background-size: 100% 100%;
 }
 
-.hero-1-left {
-  width: 50%;
+/* Adjust the layout of the hero sections */
+
+.hero-1 {
+  text-align: center;
+  padding: 10rem;
 }
 
-.hero-1-left h1 {
-  font-size: 48px;
-  margin-bottom: 1em;
-}
-
-.hero-1-left p {
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-bottom: 2em;
+.hero-1 h1 {
+  margin-top: 10rem;
 }
 
 .hero-1-buttons {
   display: flex;
+  justify-content: center;
+  align-items: ;
 }
 
-.portfolio-button {
-  background-color: #333;
-  color: #fff;
+.hero-1-buttons a {
+  display: block;
+  padding: 0.7rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: black;
+  text-align: center;
   text-decoration: none;
-  padding: 1em 2em;
-  margin-right: 1em;
-}
-
-.about-button {
-  background-color: #fff;
-  color: #333;
-  text-decoration: none;
-  padding: 1em 2em;
   border: 1px solid #333;
+  border-radius: 2rem;
+  margin: 1rem;
 }
 
-.hero-1-right {
-  width: 50%;
-}
-
-.hero-1-right img {
-  width: 100%;
-}
-
-/* Hero-2 Styles */
-.hero-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4em 0;
+.hero-1-buttons a:hover {
+  color: #f2f2f2;
+  background-color: #333;
 }
 
 .hero-2-written {
-  width: 50%;
+  padding: 50px;
 }
 
-.hero-2-written h2 {
-  font-size: 36px;
-  margin-bottom: 1em;
-}
-
-.hero-2-written p {
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-bottom: 2em;
-}
-
-.hero-2 img {
-  width: 50%;
-}
-
-/* Hero-3 Styles */
-.hero-3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4em 0;
+.hero-2 h2 {
+  font-size: 24px;
 }
 
 .hero-3-written {
-  width: 50%;
+  padding: 50px;
 }
 
-.hero-3-written h2 {
-  font-size: 36px;
-  margin-bottom: 1em;
+.hero-3 h2 {
+  font-size: 24px;
 }
 
-.hero-3-written p {
+/* Adjust the layout of the reviews section */
+
+.snip1533 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #9e9e9e;
+  display: inline-block;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5em;
-  margin-bottom: 2em;
+  margin: 35px 10px 10px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #d2652d;
 }
 
-.hero-3 img {
-  width: 50%;
+
+.snip1533 figcaption {
+  padding: 13% 10% 12%;
 }
 
-/* Works Section Styles */
-.works {
-  padding: 4em 0;
+
+.snip1533 h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
 }
 
-.works h2 {
-  font-size: 36px;
-  margin-bottom: 1em;
+.snip1533 h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
 }
 
-/* Reviews Section Styles */
-.reviews {
-  padding: 4em 0;
-}
-
-.reviews h2 {
-  font-size: 36px;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
+.snip1533 blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
 }
 
 .review-blocks {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  justify-content: center;
 }
 
-.reviews-block-1,
-.reviews-block-2,
-.reviews-block-3,
-.reviews-block-4 {
-  padding: 1%;
-  margin: 1.5%;
-  width: 30%;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+/*----------------------------Works----------------*/
+
+.container {
+  display: grid;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100rem;
+}
+
+.box {
+  overflow: hidden;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 2.5rem;
+  display: block;
+  text-align: center;
+  height: 10rem;
+  line-height: 2.6;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1024px) {
+  /* Styles for desktop screens */
+
+  .main {
+    background-image: url("/images/hero/home-hero-1.jpg");
+    height: 60rem;
+  }
+
+  .container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 50rem;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  
+  .box > span {
+    font-size: 2.5rem;
+    display: block;
+    text-align: center;
+    height: 10rem;
+    line-height: 2.6;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+  }
+   
+  .review-blocks {
+  grid-template-columns: repeat(3, 1fr);
+  padding: 13%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+}
+  
 }
