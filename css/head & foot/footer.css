@@ -2,96 +2,95 @@
 /* Footer Styles */
 footer {
   background-color: #333;
-  padding: 20px;
+  padding: 1rem;
+  padding-bottom: 0.1rem;
 }
 
 /* Contact Styles */
 contact {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 contact h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #fff;
-  margin-bottom: 20px;
 }
 
 contact a {
   display: block;
-  margin-bottom: 10px;
-  color: #fff;
+  margin-bottom: 0.625rem;
+  color: lightgray;
   text-decoration: none;
-}
-
-contact a:hover {
-  font-weight: bold;
 }
 
 /* Follow Styles */
 follow {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 follow h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #fff;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 follow ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 follow li {
-  margin: 0 10px;
+  margin: 0 0.625rem;
 }
 
 follow li a {
   display: block;
-  padding: 10px;
+  padding: 0.625rem;
   color: #fff;
   text-decoration: none;
-  border: 1px solid #fff;
+  border: 0.0625rem solid #fff;
   border-radius: 50%;
 }
+
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+footer p {
+  color:#bbb;
+  font-size: small;
+}
+
+contact a:hover {
+  color: white;
+}
+
 
 follow li a:hover {
   background-color: #fff;
   color: #333;
 }
 
-
-/* Message Styles */
-message {
-  margin-bottom: 20px;
+.footer-top {
+  padding-bottom: 1rem;
 }
-
-message h2 {
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-message p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: white;
-}
-
-
 
   /* ---------------------------------------------------------------------Styles for tablets------------------------------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* Insert tablet styles here */
+  .footer-top {
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+  }
 }
 
 
@@ -99,88 +98,14 @@ message p {
 /* ---------------------------------------------------------- Styles for desktops ---------------------------------------------------------------------------------- */
 @media only screen and (min-width: 1024px) {
   /* Style the footer */
-footer {
-  background-color: #333;
+.footer-top {
   color: #fff;
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: space-evenly;
-  padding-left: 5%;
+  display: inline-flex;
+  justify-content: flex-start;
 }
 
 /* Style the contact section in the footer */
-contact {
-  margin-bottom: 20px;
-  margin-right: 20%;
-}
 
-contact h2 {
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 20px;
-}
 
-contact a {
-  display: block;
-  margin-bottom: 10px;
-  color: #fff;
-  text-decoration: none;
-}
 
-contact a:hover {
-  font-weight: bold;
-}
-
-follow h2 {
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 20px;
-  margin-left: 30%;
-}
-
-/* Style the social media links in the footer */
-follow ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-follow li {
-  margin: 0 10px;
-}
-
-follow li a {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-  border: 1px solid #fff;
-  border-radius: 50%;
-}
-
-follow li a:hover {
-  background-color: #fff;
-  color: #333;
-}
-
-/* Style the "From Tornøe" section in the footer */
-message {
-  text-align: center;
-  width: 50%;
-  margin-left: 40%;
-}
-
-message h2 {
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-message p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: white;
-}
 }

@@ -1,9 +1,10 @@
+
 /* Body styling */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 0.9998rem;
     line-height: 1.5;
     color: #333;
   }
@@ -11,13 +12,13 @@ body {
   /* About hero 1 styling */
   .about-hero-1 {
     background-color: #fff;
-    padding: 50px;
+    padding: 3.1252rem;
     text-align: center;
   }
   
   .about-hero-1 h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 2.4998rem;
+    margin-bottom: 1.2502rem;
   }
   
   .about-hero-1 div {
@@ -29,26 +30,26 @@ body {
   
   .about-hero-1 img {
     width: 100%;
-    max-width: 500px;
-    margin-bottom: 20px;
+    max-width: 31.2502rem;
+    margin-bottom: 1.2502rem;
   }
   
   .about-hero-1 p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 50.0002rem;
   }
   
   /* About hero 2 styling */
   .about-hero-2 {
     background-color: #f2f2f2;
-    padding: 50px;
+    padding: 3.1252rem;
     text-align: center;
   }
   
   .about-hero-2 h2 {
-    font-size: 32px;
-    margin-top: 50px;
+    font-size: 2.0002rem;
+    margin-top: 3.1252rem;
   }
   
   .about-hero-2 div {
@@ -60,13 +61,13 @@ body {
   
   .about-hero-2 img {
     width: 100%;
-    max-width: 500px;
-    margin-bottom: 20px;
+    max-width: 31.2502rem;
+    margin-bottom: 1.2502rem;
   }
   
   .about-hero-2 p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 50.0002rem;
   }
   

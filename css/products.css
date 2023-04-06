@@ -1,8 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 0.9998rem;
+  line-height: 1.5;
+  color: #333;
+}
+
 .product {
   display: grid;
   border-radius: 12px;
-  border: 0.9975px solid rgba(255, 255, 255, 0.125);  
-  padding: 38.0025px;  
+  border: 0.9968px solid rgba(255, 255, 255, 0.125);  
+  padding: 38.0032px;  
   display: grid;
   align-items: center;
   justify-content:center;
@@ -20,10 +29,10 @@
 
 .banner-image {
   position: center;
-  height: 22rem;
+  height: 25rem;
   width: 25rem;
   border-radius: 12px;
-  border: 0.9975px solid rgba(255,255,255, 0.255)
+  border: 0.9968px solid rgba(255,255,255, 0.255)
 }
 
 h1{
@@ -39,11 +48,11 @@ p {
   text-align: center;
   font-size: 0.8rem;
   line-height: 150%;
-  letter-spacing: 2.0025px;
+  letter-spacing: 2.0032px;
   text-transform: uppercase;
 }
 
-@media (min-width: 1023.9975px) {
+@media (min-width: 1024px) {
 
   .wrapper {
     width: 100%;
@@ -58,7 +67,7 @@ p {
 
   .product {
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20.0025px;
+    gap: 20.0032px;
   }
 
   p{
