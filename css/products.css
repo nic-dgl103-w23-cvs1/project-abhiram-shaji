@@ -1,10 +1,38 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9998rem;
   line-height: 1.5;
   color: #333;
+}
+
+h1{
+  font-family: 'Euphoria Script', cursive;
+  font-size: 80px;
+  margin: 0%;
+  padding: 0%;
+  font-size: 80px;
+  font-family: 'Euphoria Script', cursive;
+}
+
+h2{
+  color: black;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 2.0032px;
+  text-transform: uppercase;
+}
+
+.product-section{
+  text-align: center;
 }
 
 .product {
@@ -23,8 +51,7 @@ body {
 .wrapper {
   width: 100%;
   height: 100%;
-  margin-top: 20%;
-  margin-bottom: 20%;
+  padding-bottom: 1rem;
 }
 
 .banner-image {
@@ -35,22 +62,6 @@ body {
   border: 0.9968px solid rgba(255,255,255, 0.255)
 }
 
-h1{
-  font-family: 'Righteous', sans-serif;
-  color: black;
-  text-transform: uppercase;
-  font-size: 2.4rem;
-}
-
-p {
-  color: black;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  font-size: 0.8rem;
-  line-height: 150%;
-  letter-spacing: 2.0032px;
-  text-transform: uppercase;
-}
 
 @media (min-width: 1024px) {
 

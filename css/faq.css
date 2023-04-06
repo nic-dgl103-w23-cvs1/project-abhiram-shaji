@@ -2,10 +2,17 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9998rem;
   line-height: 1.5;
   color: #333;
+}
+
+h1 {
+  margin: 0%;
+  padding: 0%;
+  font-size: 80px;
+  font-family: 'Euphoria Script', cursive;
 }
 
 /* Style the hero section */
@@ -15,10 +22,6 @@ body {
   text-align: center;
 }
 
-.faq-hero h1 {
-  font-size: 3rem;
-  color: #333;
-}
 
 /* Style the questions section */
 .questions {

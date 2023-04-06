@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9998rem;
   line-height: 1.5;
   color: #333;
@@ -71,7 +71,8 @@ body {
 }
 
 .hero-2 h2,.hero-3 h2  {
-  font-size: 24px;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 45px;
 }
 
 .hero-2 p, .hero-3 p {
@@ -136,17 +137,24 @@ body {
 
 .reviews {
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .works {
   text-align: center;
 }
 
-.reviews h2, .works h2 {
-  font-size: 2rem;
+
+.reviews h2, .works h2, .reviews h2,.works h2 {
+  font-size: 80px;
+  font-family: 'Euphoria Script', cursive;
 }
 
 /*----------------------------Works----------------*/
+
+.works h2 {
+  margin-bottom: 0%;
+}
 
 .container {
   display: grid;
@@ -278,7 +286,7 @@ body {
 }
   
 .hero-2 h2,.hero-3 h2  {
-  font-size: 32px;
+  font-size: 60px;
 }
 
 .hero-2 p,.hero-3 p  {
