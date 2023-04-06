@@ -66,6 +66,7 @@ follow li a {
 }
 
 footer p {
+  text-align: center;
   color:#bbb;
   font-size: small;
 }
