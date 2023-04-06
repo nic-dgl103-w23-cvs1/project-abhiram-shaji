@@ -3,13 +3,13 @@ body {
 }
 
 nav {
-  padding: 0.2667rem;
+  padding: 1rem;
 }
 
 header {
-	margin-bottom: 0;
-  padding: 1rem;
-  font-size: 1.3rem;
+ font-size: small;
+ margin-left: 1rem;
+ margin-right: 1rem;
 }
 
 .nav_links {
@@ -50,6 +50,12 @@ header {
   .nav_links {
     justify-content: flex-end;
     margin: 0;
+  }
+
+  header {
+    margin-bottom: 0;
+    padding: 1rem;
+    font-size: 1.3rem;
   }
 
 }
