@@ -12,7 +12,7 @@ body {
 
 
 .main {
-  background-image: url("/images/hero/home-hero-1.jpg");
+  background-image: url("images/hero/home-hero-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat:inherit;
@@ -277,7 +277,7 @@ body {
   }
 
   .main {
-    background-image: url("/images/hero/home-hero-1.jpg");
+    background-image: url("images/hero/home-hero-1.jpg");
     height: 63rem;
   }
 
